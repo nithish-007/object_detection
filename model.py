@@ -4,7 +4,7 @@ from torch import nn
 architecture_config = [
     # Tuple: (filter, num_filter, stride, padding)
     (7, 64, 2, 3), 
-    "M",
+    "M", # MAXPOOLING
     (3, 192, 1, 1),
     "M",
     (1, 128, 1, 0),
